@@ -1,6 +1,6 @@
 {
 	
-	"name": "apachesolrfortypo3/tika",
+	"name": "bauschan/tika",
 	"type": "typo3-cms-extension",
 	"description": "Apache Tika for TYPO3",
 	"version": "2.0.1",
@@ -9,13 +9,18 @@
 	"license": "GPL-2.0+",
 	"source": {
 		"type": "git",
-		"url": "git://git.typo3.org/TYPO3CMS/Extensions/tika.git",
+		"url": "https://github.com/bauschan/tika.git",
 		"reference": "master"
 	},
 	"authors": [
 		{
 			"name": "Ingo Renner",
 			"email": "ingo@typo3.org",
+			"role": "Lead Developer"
+		},
+		{
+			"name": "Peter Foerger",
+			"email": "peter.foerger@dkd.de",
 			"role": "Lead Developer"
 		}
 	],
@@ -28,13 +33,13 @@
 	},
 	"repositories": [
 		{
-			"type": "composer",
-			"url": "http://composer.typo3.org/"
+			"type": "git",
+			"url": "https://github.com/bauschan/tika.git",
+			"reference": "master"
 		}
 	],
 	"require": {
-		"php": ">5.3.7,~5.5.0",
-		"typo3/cms": "~6.2.0"
+		"php": ">5.3.7,~5.5.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.5.0"
