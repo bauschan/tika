@@ -3,7 +3,7 @@
 	"name": "apachesolrfortypo3/tika",
 	"type": "typo3-cms-extension",
 	"description": "Apache Tika for TYPO3",
-	"version": "2.0.0-dev",
+	"version": "2.0.1",
 	"keywords": ["typo3", "cms", "tika", "meta data", "language", "text", "extraction"],
 	"homepage": "http://www.typo3-solr.com",
 	"license": "GPL-2.0+",
